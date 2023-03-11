@@ -1,0 +1,48 @@
+.box{
+   display: block;
+    margin-top: 20px;
+    box-shadow: 0px 5px 8px -9px black;
+    
+    
+}
+.box__items{
+   border: none;
+   background-color: transparent;
+   
+}
+.box__option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.box p{
+font-size: 12px;
+}
+.box a{
+   
+    text-decoration: none;
+    color: blue;
+}
+.box__option p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+.box__option h5{
+    font-weight: 500;
+    padding-left: 10px;
+}
+.box__option:hover{
+    background-color: rgb(225, 221, 221);
+}
+
+@media only screen and (max-width: 768px) {
+    .box{
+        display: none;
+    }
+}

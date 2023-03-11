@@ -1,0 +1,41 @@
+.right{
+    width: 30%;
+   
+}
+.right__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.right__footer p{
+
+}
+.right__footer p a{
+    padding-right: 8px;
+    text-decoration: none;
+    color: grey;
+}
+.right__footer p a:hover{
+    text-decoration:underline;
+}
+.right__foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.right__foot img{
+    width: 60px;
+    padding-right: 10px;
+}
+.right__foot p{
+    color: gray;
+}
+@media only screen and (max-width: 768px) {
+        .right{
+            display: none;
+        }
+  }

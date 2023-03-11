@@ -1,0 +1,8 @@
+.leftside{
+
+}
+@media only screen and (max-width:500px) {
+    .leftside{
+        display: none;
+    }
+}

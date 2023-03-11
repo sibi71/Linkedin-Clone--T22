@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 15%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+    box-shadow: 0px 5px 8px -9px black;
+}
+.header__left{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.header__left img{
+    width:35px;
+    height: 35px;
+} 
+.header__input{
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.header__input input{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent; 
+}
+.header__center{
+    display: flex;
+    justify-content: center;
+
+}
+.header__option{
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__option p{
+    display: flex;
+    justify-content: center;
+}
+.header__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 0px 10px;
+}
+.header__link a{
+    color: goldenrod;
+}
+.header__option:hover {
+    border-bottom:2px solid black ;
+}
+.header__option:hover .MuiButtonBase-root{
+    color: black;
+}
+@media only screen and (max-width: 1024px) {
+    .header{
+        padding: 0px 1%;
+        justify-content: center;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .header{
+        justify-content: center;
+    }
+    .header__input{
+        display: none;
+    }
+    .header__option p{
+        display: none;
+        justify-content: center;
+    }
+    .header__option{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+@media only screen and (max-width:500px) {
+    .header__option{
+            padding: 0px 2px;
+    }
+    .header__link{
+        display: none;
+    }
+}
